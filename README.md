@@ -12,3 +12,17 @@ Este projeto permite controlar e visualizar leituras de uma célula de carga con
 Use o `pip` para instalar as bibliotecas necessárias:
 ```bash
 pip install -r requirements.txt
+```
+
+## Executando o Programa
+
+Para executar o programa, use o seguinte comando:
+```bash
+python arduinoTeste.py
+```
+
+## Uso
+Iniciar a Pesagem:
+Clique no botão `"Iniciar"` para começar a pesagem. Uma nova janela com o velocímetro será aberta.
+Finalizar a Pesagem:
+Clique no botão `"Finalizar"` para encerrar a pesagem e salvar os dados em um arquivo .txt.
