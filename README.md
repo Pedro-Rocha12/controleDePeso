@@ -40,7 +40,7 @@ python controlePeso.py
 ```
 
 ## Uso
-Iniciar a Pesagem:
+- Iniciar a Pesagem:
 Clique no botão `"Iniciar"` para começar a pesagem. Uma nova janela com o velocímetro será aberta.
-Finalizar a Pesagem:
+- Finalizar a Pesagem:
 Clique no botão `"Finalizar"` para encerrar a pesagem e salvar os dados em um arquivo .txt.
