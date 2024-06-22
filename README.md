@@ -2,10 +2,27 @@
 
 Este projeto permite controlar e visualizar leituras de uma célula de carga conectada a um Arduino usando uma interface gráfica em Python.
 
+## Materiais Utilizados
+
+- **Arduino Nano**
+- **Módulo HX711**
+- **Célula de Carga**
+- **Jumpers e Protoboard**
+- **Computador com Python instalado**
+
+## Bibliotecas Necessárias para o Arduino
+
+No Arduino IDE, instale as seguintes bibliotecas:
+
+- **HX711**: Para instalar, vá em Tools -> Manage Libraries e procure por "HX711" e instale a biblioteca de Bogde.
+
+Ainda no Arduino IDE, certifique-se de selecionar o Arduino correto (Nano, MIni, etc) e a porta conectada (COM7, COM8, etc)
+
 ## Pré-requisitos
 
 - **Python**: Certifique-se de ter o Python instalado. Você pode baixar e instalar a versão mais recente do Python em [python.org](https://www.python.org/downloads/).
 - **pip**: Verifique se `pip` está instalado executando `pip --version`. Se `pip` não estiver instalado, siga as instruções em [pip documentation](https://pip.pypa.io/en/stable/installation/).
+- **Arduino IDE**: Certifique-se de ter a IDE do Arduino instalada. Você pode baixar e instalar a Arduino IDE em [Arduino IDE](https://www.arduino.cc/en/software/).
 
 ## Instalação de Dependências
 
@@ -16,9 +33,10 @@ pip install -r requirements.txt
 
 ## Executando o Programa
 
+Primeiro abra o Arduino IDE
 Para executar o programa, use o seguinte comando:
 ```bash
-python arduinoTeste.py
+python controlePeso.py
 ```
 
 ## Uso
