@@ -16,7 +16,7 @@ No Arduino IDE, instale as seguintes bibliotecas:
 
 - **HX711**: Para instalar, vá em Tools -> Manage Libraries e procure por "HX711" e instale a biblioteca de Bogde.
 
-Ainda no Arduino IDE, certifique-se de selecionar o Arduino correto (Nano, MIni, etc) e a porta conectada (COM7, COM8, etc)
+Ainda no Arduino IDE, certifique-se de selecionar o Arduino correto (Nano, Mini, etc) e a porta conectada (COM7, COM8, etc)
 
 ## Pré-requisitos
 
